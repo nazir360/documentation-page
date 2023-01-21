@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+body{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'montserrat', 'Times New Roman';
+    color: black;
+}
+header{
+font-size: 20px;
+font-weight: 900px;
+font-family: 'lato','Times New Roman';
+color: #000000;
+line-height: 45px;
+}
+#navbar{
+    position: fixed;
+    overflow-y: scroll;
+    padding: 20px 0px;
+    background: #ffffff;
+    width: 300px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+#navbar header{
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    background:  #f7f7f7;
+    padding: 20px;
+}
+#navbar ul li{
+    margin:25px 0px;
+    text-decoration: none;
+    padding: 10px 0px;
+    right: 20px;
+    text-align: left;
+    list-style-type: none;
+    margin-left: -40px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #000000;
+}
+#navbar ul li a{
+    color: #000000;
+    padding: 0px 30px;
+    text-decoration: none;
+}
+ul{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px; 
+}
+main{
+    margin-left: 290px;
+    padding: 5px;
+}
+code{
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+@media screen and (min-width: 1024px) {
+    #main-doc {
+      background-color: #fff;
+      color: #000;
+    }
+  }
+   
+  /* For Tablet View */
+  @media screen and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    #main-doc {
+      width: 400px;
+      height: 400px;
+      background-color: orange;
+      color: black;
+    }
+  }
+   
+  /* For Mobile Portrait View */
+  @media screen and (max-device-width: 480px)
+  and (orientation: portrait) {
+    #main-doc {
+      width: 200px;
+      height: 200px;
+      background-color: white;
+      color: #fff;
+    }
+  }
+   
+  /* For Mobile Landscape View */
+  @media screen and (max-device-width: 640px)
+  and (orientation: landscape) {
+    main-doc {
+      width: 400px;
+      height: 200px;
+      background-color: cyan;
+      color: black;
+    }
+  }
+   
+  /* For Mobile Phones Portrait or Landscape View */
+  @media screen and (max-device-width: 640px) {
+    #main-doc {
+      width: 400px;
+      height: 200px;
+      background-color: chartreuse;
+      color: black;
+    }
+  }
+   
+  /* For iPhone 4 Portrait or Landscape View */
+  @media screen and (min-device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+     #main-doc {
+      width: 400px;
+      height: 400px;
+      background-color: brown;
+      color: black;
+    }
+  }
+   
+  /* For iPhone 5 Portrait or Landscape View */
+  @media (device-height: 568px) and (device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #main-doc {
+      width: 400px;
+      height: 400px;
+      background-color: cornflowerblue;
+      color: black;
+    }
+  }
+   
+  /* For iPhone 6 and 6 plus Portrait or Landscape View */
+  @media (min-device-height: 667px) and (min-device-width: 375px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+   #main-doc {
+      width: 400px;
+      height: 400px;
+      background-color: darkgoldenrod;
+      color: black;
+    }
+  }
